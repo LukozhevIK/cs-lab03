@@ -3,6 +3,7 @@
 #include <iostream>
 #include <conio.h>
 #include <vector>
+#include "histogram.h"
 using namespace std;
 
 void
@@ -130,7 +131,8 @@ int main()
 
     //вывод гистрограмы
 
-    show_histogram_text(bins);
+    show_histogram_svg(bins);
+    //show_histogram_text(bins);
 
 
     return 0;
