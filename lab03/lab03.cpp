@@ -66,12 +66,6 @@ show_histogram_text(vector<size_t> bins)
             max_bin = bin;
         }
     }
-
-    size_t maxhigth;
-    if (max_bin < 76)
-        maxhigth = max_bin;
-    else
-        maxhigth = 76;
     for (double bin : bins)
     {
         size_t height = bin;
